@@ -8,7 +8,7 @@ On this webpage, you will see a button to install the latest version of Python 3
 
 ![Python Install Dialogue Box](images/windows_install_python.png)
 
-In the dialogue box that opens up, it is important to first tick the box next to **Add Python 3 to PATH**. Then you can go ahead and click **Install Now**. The setup process will take a little bit of time.
+In the dialogue box that opens up, it is important to first tick the box next to **Add Python 3 to PATH** (see image above). Then you can go ahead and click **Install Now**. The setup process will take a little bit of time.
 
 Once the setup is complete, click **Done** and then close your web browser. Now you can go to the start menu to open **IDLE**, a standard interactive development environment for writing and executing Python code which you will use in many of our Python projects.
 
