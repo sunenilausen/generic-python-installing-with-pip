@@ -1,4 +1,4 @@
-If Python 3 or IDLE isnt installed on you computer, follow the instructions below for your operating system.
+If Python 3 or IDLE isn't installed on you computer, follow the installation instructions below for your operating system.
 
 ### Microsoft Windows
 
