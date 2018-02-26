@@ -4,47 +4,47 @@ If Python 3 or IDLE isn't installed on you computer, follow the installation ins
 
 ### Microsoft Windows
 
-On Microsoft Windows, your first step will be to open up your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads).
++ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads).
 
-On this webpage, you will see a button to install the latest version of Python 3. Click it, and a download of an executable file will start automatically. Click on the `.exe` file to run it — it will be saved in your `Downloads` folder, or whereever your computer saves downloaded files by default.
++ On this webpage, you will see a button to install the latest version of Python 3. Click it, and a download will start automatically.
 
-![Python Install Dialogue Box](images/windows_install_python.png)
+![windows download python 3](images/windows_step1.PNG)
 
-In the dialogue box that opens up, it is important to first tick the box next to **Add Python 3 to PATH** (see image above). Then you can go ahead and click **Install Now**. The setup process will take a little bit of time.
++ Click on the `.exe` file to run it — it will be saved in your `Downloads` folder, or wherever your computer saves downloaded files by default.
 
-Once the setup is complete, click **Done** and then close your web browser. Now you can go to the start menu to open IDLE.
+![windows run install](images/windows_step2.PNG)
+
++ In the dialogue box that opens up, it is important to first tick the box next to **Add Python 3 to PATH**. 
+
+![add Python to the path](images/windows_add_to_path.png)
+
++ Click **Install Now** and follow the install guide to install Python. The setup process will take a little time.
+
+![windows install python](images/windows_install_python.gif)
+
++ Once the setup is complete, click **Done** and then close your web browser. Now you can go to the start menu to open IDLE.
 
 ### Apple macOS
 
-To install Python on MacOS, you will first need to install Xcode. Open up your **App Store**, search for **Xcode**, and install it on your computer. This will take a few minutes.
++ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads).
 
-Once Xcode has been installed, open up a web browser and navigate to [brew.sh](https://brew.sh), which is the homepage of **Homebrew**. This is a macOS package manager which is useful for installing a lot of different applications — you need it to install Python 3.
++ On this webpage, you will see a button to install the latest version of Python 3. Click it, and a download will start automatically.
 
-To install Homebrew, open a **terminal** window, and paste in the following line of code:
+![macos download python 3](images/macos_install_step1.png)
 
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
++ Click on the download in the dock to start the install.
 
-Press **Enter** to start the installation process for Homebrew. At various times during the process, you may be prompted for confirmations and your password.
+![macos start install](images/macos_install_step2.png)
 
-Once Homebrew has been installed, type this into the terminal window:
++ Click **Continue** and follow the installation guide to install Python. The installation may take a little time.
 
-```
-brew install python3
-```
+![macos install python](images/macos_install_python.gif)
 
-This command will install Python 3 on your computer.
++ When complete click **Close**.
 
-If you then have a look at your **Applications** folder, you might find that Python 3 is not there, or maybe it has a large question mark over the icon. To make sure that you can access the interactive development environment (or IDLE) of Python 3, go back to the terminal window and type:
++ Open IDLE from your Applications.
 
-```
-brew linkapps
-```
-
-Now navigate to your Applications folder again, and you should find **IDLE 3** there.
-
-## Linux (Debian-based distributions)
+### Linux (Debian-based distributions)
 
 Most distributions of Linux come with Python 3 already installed, but they might not have IDLE installed. Use `apt` to check whether they are installed, and install if them if they aren't.
 
