@@ -1,54 +1,54 @@
 If Python 3 or IDLE isn't installed on you computer, follow the installation instructions below for your operating system.
 
-**IDLE** is a standard interactive development environment for writing and executing Python code which you will use in many of our Python projects.
+**IDLE** is a standard interactive development environment for writing and executing Python code that you will use in many of our Python projects.
 
 ### Microsoft Windows
 
-On Microsoft Windows, your first step will be to open up your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads).
++ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads).
 
-On this webpage, you will see a button to install the latest version of Python 3. Click it, and a download of an executable file will start automatically. Click on the `.exe` file to run it — it will be saved in your `Downloads` folder, or whereever your computer saves downloaded files by default.
++ On this webpage, you will see a button to install the latest version of Python 3. Click it, and a download will start automatically.
 
-![Python Install Dialogue Box](images/windows_install_python.png)
+![windows download python 3](images/windows_step1.PNG)
 
-In the dialogue box that opens up, it is important to first tick the box next to **Add Python 3 to PATH** (see image above). Then you can go ahead and click **Install Now**. The setup process will take a little bit of time.
++ Click on the `.exe` file to run it. (It will have been saved in your `Downloads` folder, or wherever your computer saves downloaded files by default.)
 
-Once the setup is complete, click **Done** and then close your web browser. Now you can go to the start menu to open IDLE.
+![windows run install](images/windows_step2.PNG)
 
-### Apple macOS
++ In the dialogue box that opens up, it is important to first tick the box next to **Add Python 3 to PATH**. 
 
-To install Python on MacOS, you will first need to install Xcode. Open up your **App Store**, search for **Xcode**, and install it on your computer. This will take a few minutes.
+![add Python to the path](images/windows_add_to_path.png)
 
-Once Xcode has been installed, open up a web browser and navigate to [brew.sh](https://brew.sh), which is the homepage of **Homebrew**. This is a macOS package manager which is useful for installing a lot of different applications — you need it to install Python 3.
++ Click **Install Now** and follow the install guide. The setup process will take a little time.
 
-To install Homebrew, open a **terminal** window, and paste in the following line of code:
+![windows install python](images/windows_install_python.gif)
 
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
++ Once the setup is complete, click **Done** and then close your web browser. Now you can go to the start menu to open IDLE.
 
-Press **Enter** to start the installation process for Homebrew. At various times during the process, you may be prompted for confirmations and your password.
+### macOS
 
-Once Homebrew has been installed, type this into the terminal window:
++ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads).
 
-```
-brew install python3
-```
++ On this webpage, you will see a button to install the latest version of Python 3. Click it, and a download will start automatically.
 
-This command will install Python 3 on your computer.
+![macos download python 3](images/macos_install_step1.png)
 
-If you then have a look at your **Applications** folder, you might find that Python 3 is not there, or maybe it has a large question mark over the icon. To make sure that you can access the interactive development environment (or IDLE) of Python 3, go back to the terminal window and type:
++ Click on the download in the dock to start the installation process.
 
-```
-brew linkapps
-```
+![macos start install](images/macos_install_step2.png)
 
-Now navigate to your Applications folder again, and you should find **IDLE 3** there.
++ Click **Continue** and follow the installation guide. The installation may take a little time.
 
-## Linux (Debian-based distributions)
+![macos install python](images/macos_install_python.gif)
 
-Most distributions of Linux come with Python 3 already installed, but they might not have IDLE installed. Use `apt` to check whether they are installed, and install if them if they aren't.
++ When it's complete, click **Close**.
 
-Open up a terminal window and type:
++ Open IDLE from your Applications.
+
+### Linux (Debian-based distributions)
+
+Most distributions of Linux come with Python 3 already installed, but they might not have IDLE installed. Use `apt` to check whether they are installed and install if them if they aren't.
+
++ Open up a terminal window and type:
 
 ```
 sudo apt update
