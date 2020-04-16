@@ -1,0 +1,12 @@
+---
+title: Hoe Python 3 te installeren
+hero_image: images/banner.png
+description: Instructies voor het installeren van Python 3
+duration: 1 #possible values: 1, 2 or 3
+listed: false
+ingredient: true
+copyedit: false
+interests:
+technologies: "python"
+steps:
+  - title: Installeer Python 3
