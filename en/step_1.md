@@ -26,7 +26,7 @@ If Python 3 or IDLE isn't installed on you computer, follow the installation ins
 
 ### <a name="windowspythoninstall"></a>Python installer
 
-+ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads).
++ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"}.
 
 + On this webpage, you will see a button to install the latest version of Python 3. Click it, and a download will start automatically.
 
@@ -48,7 +48,7 @@ If Python 3 or IDLE isn't installed on you computer, follow the installation ins
 
 ## <a name="macos"></a> macOS
 
-+ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads).
++ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"}.
 
 + On this webpage, you will see a button to install the latest version of Python 3. Click it, and a download will start automatically.
 
