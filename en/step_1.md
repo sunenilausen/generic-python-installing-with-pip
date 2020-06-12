@@ -68,7 +68,9 @@ If Python 3 or IDLE isn't installed on you computer, follow the installation ins
 
 ## <a name="linux"></a> Raspberry Pi OS & other Linux (Debian-based) distributions
 
-Most distributions of Linux come with Python 3 already installed, but they might not have default IDLE IDE installed. Use `apt` to check whether they are installed and install if them if they aren't.
+Most distributions of Linux come with Python 3 already installed, but they might not have IDLE, the default IDE (interactive development environment), installed. 
+
+Use `apt` to check whether they are installed and install if them if they aren't.
 
 + Open up a terminal window and type:
 
