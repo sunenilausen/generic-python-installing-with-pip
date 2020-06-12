@@ -4,11 +4,11 @@ If Python 3 or IDLE isn't installed on you computer, follow the installation ins
 + [macOS](#macos)
 + [Raspberry Pi OS & Linux](#liunux)
 
-### <a name="windows"></a> Microsoft Windows
+## <a name="windows"></a> Microsoft Windows
 
-[Installing Python via the Microsoft App Store](#windowsappstore) is recommended. If this is not possible you can also [use a Python installation](#windowspythoninstall) from [python.org].
+[Installing Python via the Microsoft App Store](#windowsappstore) is recommended. If this is not possible you can also [use a Python installation](#windowspythoninstall) from (python.org)[httpps://python.org].
 
-**<a name="windowsappstore"></a>Microsoft App Store (recommended)**
+### <a name="windowsappstore"></a>Microsoft App Store (recommended)
 
 + Open the [Python 3.8 application in the Microsoft Store](ms-windows-store://pdp/?ProductId=9MSSZTT1N39L)
 
@@ -24,7 +24,7 @@ If Python 3 or IDLE isn't installed on you computer, follow the installation ins
 
 ![python 3.8 installation complete notification](images/ms_store_step3.png)
 
-**<a name="windowspythoninstall"></a>Python installer**
+### <a name="windowspythoninstall"></a>Python installer
 
 + Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads).
 
@@ -46,7 +46,7 @@ If Python 3 or IDLE isn't installed on you computer, follow the installation ins
 
 + Once the setup is complete, click **Done** and then close your web browser. Now you can go to the start menu to open IDLE.
 
-### <a name="macos"></a> macOS
+## <a name="macos"></a> macOS
 
 + Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads).
 
@@ -66,7 +66,7 @@ If Python 3 or IDLE isn't installed on you computer, follow the installation ins
 
 + Open IDLE from your Applications.
 
-### <a name="linux"></a> Raspberry Pi OS & other Linux (Debian-based) distributions
+## <a name="linux"></a> Raspberry Pi OS & other Linux (Debian-based) distributions
 
 Most distributions of Linux come with Python 3 already installed, but they might not have default IDLE IDE installed. Use `apt` to check whether they are installed and install if them if they aren't.
 
