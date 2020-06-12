@@ -6,7 +6,7 @@ If Python 3 or IDLE isn't installed on you computer, follow the installation ins
 
 ## <a name="windows"></a> Microsoft Windows
 
-[Installing Python via the Microsoft App Store](#windowsappstore) is recommended. If this is not possible you can also [use a Python installation](#windowspythoninstall) from (python.org)[https://python.org].
+[Installing Python via the Microsoft App Store](#windowsappstore) is recommended. If this is not possible you can also [use a Python installation](#windowspythoninstall) from [python.org](https://python.org).
 
 ### <a name="windowsappstore"></a>Microsoft App Store (recommended)
 
