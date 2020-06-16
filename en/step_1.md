@@ -1,12 +1,34 @@
-If Python 3 or IDLE isn't installed on you computer, follow the installation instructions below for your operating system.
+If Python 3 or IDLE isn't installed on your computer, follow the installation instructions below for your operating system:
 
-**IDLE** is a standard interactive development environment for writing and executing Python code that you will use in many of our Python projects.
++ [Microsoft Windows](#windows)
++ [macOS](#macos)
++ [Raspberry Pi OS and Linux](#linux)
 
-### Microsoft Windows
+## <a name="windows"></a> Microsoft Windows
 
-+ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads).
+It is recommended that you [install Python via the Microsoft Store](#windowsappstore). If this is not possible, you can also [use a Python installer](#windowspythoninstall) from [www.python.org](https://www.python.org).
 
-+ On this webpage, you will see a button to install the latest version of Python 3. Click it, and a download will start automatically.
+### <a name="windowsappstore"></a>Microsoft Store (recommended)
+
++ Open the [Python 3.8 application in the Microsoft Store](ms-windows-store://pdp/?ProductId=9MSSZTT1N39L).
+
++ Click the **Get** button to download and install Python 3.8.
+
+![The python 3.8 application page in the microsoft store](images/ms_store_step1.png)
+
++ Python 3.8 will be downloaded and installed. Progress will be shown in the notification bar.
+
+![python 3.8 installation progress notification](images/ms_store_step2.png)
+
++ When the installation process is complete, a notification will appear.
+
+![python 3.8 installation complete notification](images/ms_store_step3.png)
+
+### <a name="windowspythoninstall"></a>Python installer
+
++ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"}.
+
++ On this web page, you will see a button to install the latest version of Python 3. Click the button, and a download will start automatically.
 
 ![windows download python 3](images/windows_step1.PNG)
 
@@ -14,21 +36,21 @@ If Python 3 or IDLE isn't installed on you computer, follow the installation ins
 
 ![windows run install](images/windows_step2.PNG)
 
-+ In the dialogue box that opens up, it is important to first tick the box next to **Add Python 3 to PATH**. 
++ In the dialogue box that opens, it is important that you first tick the box next to **Add Python 3 to PATH**. 
 
 ![add Python to the path](images/windows_add_to_path.png)
 
-+ Click **Install Now** and follow the install guide. The setup process will take a little time.
++ Click on **Install Now** and follow the installation guide. The setup process will take a little time.
 
 ![windows install python](images/windows_install_python.gif)
 
-+ Once the setup is complete, click **Done** and then close your web browser. Now you can go to the start menu to open IDLE.
++ Once the setup is complete, click on **Done**, and then close your web browser. Now, you can go to the Start menu to open IDLE.
 
-### macOS
+## <a name="macos"></a> macOS
 
-+ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads).
++ Open your web browser and navigate to [www.python.org/downloads](https://www.python.org/downloads){:target="_blank"}.
 
-+ On this webpage, you will see a button to install the latest version of Python 3. Click it, and a download will start automatically.
++ On this web page, you will see a button to install the latest version of Python 3. Click the button, and a download will start automatically.
 
 ![macos download python 3](images/macos_install_step1.png)
 
@@ -36,23 +58,25 @@ If Python 3 or IDLE isn't installed on you computer, follow the installation ins
 
 ![macos start install](images/macos_install_step2.png)
 
-+ Click **Continue** and follow the installation guide. The installation may take a little time.
++ Click on **Continue** and follow the installation guide. The installation may take a little time.
 
 ![macos install python](images/macos_install_python.gif)
 
-+ When it's complete, click **Close**.
++ When the installation process is complete, click on **Close**.
 
 + Open IDLE from your Applications.
 
-### Linux (Debian-based distributions)
+## <a name="linux"></a> Raspberry Pi OS and other Linux (Debian-based) distributions
 
-Most distributions of Linux come with Python 3 already installed, but they might not have IDLE installed. Use `apt` to check whether they are installed and install if them if they aren't.
+Most distributions of Linux come with Python 3 already installed, but they might not have IDLE, the default IDE (interactive development environment), installed. 
 
-+ Open up a terminal window and type:
+Use `apt` to check whether they are installed and install them if they aren't.
+
++ Open a terminal window and type:
 
 ```
 sudo apt update
 sudo apt install python3 idle3
 ```
 
-This will install IDLE (and Python 3), and you should then be able to find it in your Application menu.
+This will install Python 3 (and IDLE), and you should then be able to find it in your Application menu.
