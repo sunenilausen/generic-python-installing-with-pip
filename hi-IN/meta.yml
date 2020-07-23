@@ -1,0 +1,12 @@
+---
+title: Python 3 कैसे इंस्टॉल करें
+hero_image: images/banner.png
+description: Python 3 इंस्टॉल करने के लिए निर्देश
+duration: 1 #possible values: 1, 2 or 3
+listed: false
+ingredient: true
+copyedit: false
+interests:
+technologies: "python"
+steps:
+  - title: Python 3 इंस्टॉल करें
