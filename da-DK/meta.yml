@@ -1,0 +1,11 @@
+title: Sådan installerer du Python 3
+hero_image: images/banner.png
+description: Instruktioner til at installere Python 3
+duration: 1 # possible values: 1, 2 or 3
+listed: false
+ingredient: true
+copyedit: false
+interests:
+technologies: "python"
+steps:
+  - title: Installer Python 3
